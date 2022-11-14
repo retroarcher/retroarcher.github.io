@@ -1,0 +1,53 @@
+/* --- Beautiful Jekyll overrides --- */
+html {
+  scroll-behavior: smooth
+}
+
+body {
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  overflow-wrap: normal;
+}
+
+.post-preview .post-meta,
+.post-heading .post-meta {
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+#nav-search-icon {
+  display: none;
+}
+
+/* --- Image Gallery --- */
+.image-gallery {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  align-items: center;
+  justify-items: center;
+  grid-gap: 20px;
+}
+
+.image-gallery li {
+  float: left;
+  display: block;
+  margin: 0 0 3% 3%;
+  width: 100%;
+}
+
+.image-gallery li a {
+  text-align: center;
+  text-decoration: none !important;
+  color: #777;
+}
+
+.image-gallery li a span {
+  display: block;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  padding: 5px 0;
+}
+
+.image-gallery li a img {
+  width: 100%;
+  display: block;
+}
